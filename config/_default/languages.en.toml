@@ -11,7 +11,7 @@ title = "Shainil P S"
   dateFormat = "2 January 2006"
   logo = "img/profile.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "my personal site where i intended to write sometimes"
+  description = "I'm Shainil P S, a software developer. I build backend and blockchain systems, tinker with low-level software, and spend way too much time in the terminal."
   copyright = "@2025 Shainil P S"
 
 [params.author]
@@ -19,9 +19,9 @@ title = "Shainil P S"
   email = "shainilps.work@gmail.com"
   image = "img/profile.jpeg"
   imageQuality = 96
-  headline = "i'm a developer"
-  bio = "i use neovim btw!!"
-  about = "i mostly work with backend and blockchain technology and build around it. lately i have been getting into low level stuffs as well. i primarily use [neovim](https://github.com/neovim/neovim)  and [niri](https://github.com/YaLTeR/niri) for my coding. if you want to connnct feel free to reach out!!"
+  headline = "I'm a dev"
+  bio = "I use neovim btw!!"
+  about = "I mostly work with backend and blockchain technologies, building systems around them. Lately, I’ve been diving into low-level stuff as well. I primarily use [neovim](https://github.com/neovim/neovim) and [niri](https://github.com/YaLTeR/niri) for coding. If you want to connect, feel free to reach out!"
   links = [
     { email = "mailto:shainilps.work@gmail.com" },
     { github = "https://github.com/shainilps" },
