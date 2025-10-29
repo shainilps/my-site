@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 # theme = "blowfish" 
-baseURL = "https://shainilps.netlify.app/"
+baseURL = "https://shainilps.com/"
 # baseURL = "https://your_domain.com/"
 defaultContentLanguage = "en"
 
