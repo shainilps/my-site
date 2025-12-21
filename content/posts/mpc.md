@@ -40,7 +40,7 @@ This is the thing you want to use for go to call the library apis. I did encount
 path of the cb-mpc library path is hardcoded so it will give error later. just remove the hardcoded path. rest should work. If you still need some help please do consider
 contacting me through twitter or email.
 
-# MPC: Single Key Pair 
+# MPC: Single Key Pair
 
 Now you are ready to go with the `cb-mpc-go` directory. import this in your project. if you see that there is `demos-go/cmd/thereshold-signing` example in the repo
 which does the single key pair singing better way than I could ever explain. go and look into that follow the makefile and you are given a web interface
@@ -88,7 +88,7 @@ Now let me show you a snippet of code which does the DKG
 
 ```go
     //quoramCount is party count
-    // partyIndex is the current party index
+    //partyIndex is the current party index
     //quorumPNames is names of the parties
     //messenger is  the transport interface
 	job, err := mpc.NewJobMP(messenger, totalPartyCount, partyIndex, allPNameList)
@@ -117,10 +117,16 @@ Now let me show you a snippet of code which does the DKG
 ## Second Step: Threshold based Signing
 
 Signing is the operation in which we sign a message with the m:n threshold manner. since, I already explained the Messenger, Job and Access Structure. Let's explain what different
-comes here. Only thing that is different would be the additive share that we add to the keyshare before signing. This is for the Access Structure Info of the parties
+comes here. Only thing that is different would be the additive share that we add to the keyshare before signing. This is inorder to satisfy the access strutcure which was provided
+during DKG.
+Note that during signing, we need to specify which party gets the signature response; not all party gets the signature response-only one does.
 
 ```go
 
+    //quoramCount is party count
+    //partyIndex is the current party index
+    //quorumPNames is names of the parties
+    //messenger is  the transport interface
 	job, err := mpc.NewJobMP(messenger, quorumCount, partyIndex, quorumPNames)
 	if err != nil {
 		return nil, nil, fmt.Errorf("failed to create job: %v", err)
@@ -131,14 +137,18 @@ comes here. Only thing that is different would be the additive share that we add
 		return nil, nil, fmt.Errorf("quorum count does not match the number of participants")
 	}
 
+    // the Message should be sha256 hash(this is optional here we can do this outside of the mpc server)
 	hashedMessage := sha256.Sum256(inputMessage)
 	message := hashedMessage[:]
 
+    //ac is basicaly AccessStructure, that we generate during DKG
+    //quorumPNames participant parties names
 	additiveShare, err := keyShare.ToAdditiveShare(ac, quorumPNames)
 	if err != nil {
 		return nil, nil, fmt.Errorf("converting to additive share: %v", err)
 	}
 
+    //LEADER_INDEX is basically tells the mpc operation in which party signature should be returned (kinda like master node)
 	sigResponse, err := mpc.ECDSAMPCSign(job, &mpc.ECDSAMPCSignRequest{
 		KeyShare:          additiveShare,
 		Message:           message,
@@ -148,7 +158,6 @@ comes here. Only thing that is different would be the additive share that we add
 		return nil, nil, fmt.Errorf("signing failed: %v", err)
 	}
 
-
 ```
 
-# 2PC: HD Key Pair 
+# 2PC: HD Key Pair
