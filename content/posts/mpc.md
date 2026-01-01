@@ -267,6 +267,13 @@ Since you got this far and I'm writing this in 1 Jan 2026, I'm feeling very gene
 
 ```go
 //pem to ec key
+
+type publicKeyInfo struct {
+	Raw       asn1.RawContent
+	Algorithm pkix.AlgorithmIdentifier
+	PublicKey asn1.BitString
+}
+
 func pemToECKey(pemStr *string) (*ecdsa.PublicKey, error) {
 	if pemStr == nil {
 		return nil, errors.New("pem is nil")
