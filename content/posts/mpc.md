@@ -4,7 +4,7 @@ draft = false
 title = 'So You Want MPC in Go: Threshold Signing and HD Keys with cb-mpc'
 +++
 
-NOTE: This is not MPC from scratch or algorithmic level discussion. here I'm explaining a mpc library more specifically [cb-mpc](https://github.com/coinbase/cb-mpc) from coinbase.
+**NOTE:** This is not MPC from scratch or algorithmic level discussion. here I'm explaining a mpc library more specifically [cb-mpc](https://github.com/coinbase/cb-mpc) from coinbase.
 
 Let's cut part where I explain what is MPC? because there are lot of resources covering that theory part.
 here we are gonna do implemenation of mpc based key signing with one of the open source repository from coinbase [cb-mpc](https://github.com/coinbase/cb-mpc).
