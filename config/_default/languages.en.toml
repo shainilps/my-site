@@ -11,8 +11,8 @@ title = "Shainil P S"
   dateFormat = "2 January 2006"
   logo = "img/profile.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "I'm Shainil P S, a software developer. I build backend and blockchain systems, tinker with low-level software, and spend way too much time in the terminal."
-  copyright = "@2025 Shainil P S"
+  description = "I'm Shainil P S, a developer, programmer and etc,. I hack on softwares, and spend way too much time in the terminal."
+  copyright = "@2026 Shainil P S"
 
 [params.author]
   name = "Shainil P S"
@@ -21,12 +21,13 @@ title = "Shainil P S"
   imageQuality = 96
   headline = "a software dev"
   bio = "A software developer who gets paid to solve problems with neovim"
-  about = "I mostly work on backend and blockchain systems. Lately, I’ve been spending more time on low-level concepts and fundamentals. I enjoy writing Go, Rust, Haskell (still learning), C, and sometimes TypeScript/JavaScript. If you want to connect, feel free to reach out!"
+  about = "I mostly work on backend and any system Softwares. I enjoy writing Go, Rust, Haskell (still learning), C, and sometimes TypeScript/JavaScript. If you want to connect, feel free to reach out!"
   links = [
     { email = "mailto:me@shainilps.com" },
     { github = "https://github.com/shainilps" },
     { x-twitter = "https://twitter.com/shainilps" },
     { linkedin = "https://linkedin.com/in/shainilps" },
+    { rss = "/index.xml" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
