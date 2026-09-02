@@ -5,6 +5,13 @@ title = 'Links'
 type = 'page'
 +++
 
-# Links
+## `Good Read`
 
-- []()
+- [a very good haskell learning material](https://learnyouahaskell.github.io/starting-out.html)
+- [category theory in haskell](https://en.wikibooks.org/wiki/Haskell/Category_theory#The_second_law)
+- [pi from sractch(agent harness)](https://pi-from-scratch.vercel.app/#chapter1)
+
+## you could follow for a `Good Read`
+
+- [tiger beetle](https://tigerbeetle.com/blog/)
+- [Alex Kladov](https://matklad.github.io/)
