@@ -9,7 +9,7 @@ title = "Shainil P S"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/profile.png"
+  # logo = "img/profile.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "I'm Shainil P S, a developer, programmer and etc,. I hack on softwares, and spend way too much time in the terminal."
   copyright = "@2026 Shainil P S"
@@ -17,7 +17,7 @@ title = "Shainil P S"
 [params.author]
   name = "Shainil P S"
   email = "me@shainilps.com"
-  image = "img/profile.jpeg"
+  image = "img/cat_sorcerer.jpeg"
   imageQuality = 96
   headline = "a software dev"
   bio = "A software developer who gets paid to solve problems with neovim"
