@@ -8,7 +8,7 @@ type = 'page'
 ## `Good Read`
 
 - [A very good haskell learning material](https://learnyouahaskell.github.io/starting-out.html)
-- [Category theory in haskell](https://en.wikibooks.org/wiki/Haskell/Category_theory#The_second_law)
+- [Category theory in haskell](https://en.wikibooks.org/wiki/Haskell/Category_theory)
 - [Pi from scratch(agent harness)](https://pi-from-scratch.vercel.app/#chapter1)
 
 ## you could follow for a `Good Read`
