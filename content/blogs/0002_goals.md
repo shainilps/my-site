@@ -1,7 +1,7 @@
 +++
 date = '2026-09-01T00:00:00+05:30'
 draft = false
-title = 'some random rant'
+title = 'Some random Rant'
 tags = ['rant', 'programming', 'llm']
 +++
 
