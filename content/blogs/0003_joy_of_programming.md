@@ -2,7 +2,7 @@
 date = '2026-09-05T00:00:00+05:30'
 draft = false
 title = 'Joy of Programming'
-tags = [programming, joy, neovim]
+tags = ['programming', 'joy', 'neovim']
 +++
 
 I mean people have forgotten the joy of programming. technically this is not applicable to everyone
