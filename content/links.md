@@ -10,6 +10,7 @@ type = 'page'
 - [A very good haskell learning material](https://learnyouahaskell.github.io/starting-out.html)
 - [Category theory in haskell](https://en.wikibooks.org/wiki/Haskell/Category_theory)
 - [Pi from scratch(agent harness)](https://pi-from-scratch.vercel.app/#chapter1)
+- [LLM From Scratch Course](https://algo.monster/courses/llm/llm_course_introduction)
 
 ## you could follow for a `Good Read`
 
