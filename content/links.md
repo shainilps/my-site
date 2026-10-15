@@ -16,3 +16,4 @@ type = 'page'
 
 - [Tiger Beetle](https://tigerbeetle.com/blog/)
 - [Alex Kladov](https://matklad.github.io/)
+- [Fabrice Bellard (GOAT)](https://bellard.org/)
