@@ -1,9 +1,11 @@
 +++
 date = '2026-09-05T00:00:00+05:30'
-draft = false
+draft = true
 title = 'Joy of Programming'
 tags = ['programming', 'joy', 'neovim']
 +++
+
+I think i should rewrite this blog
 
 I mean people have forgotten the joy of programming. technically this is not applicable to everyone
 because there are two types of programmers. one who treats it as craftmanship, another who dont.
