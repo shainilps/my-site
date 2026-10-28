@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ site.Params.description }}{{ end }}">
+
+  <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ $.Site.Title }}</title>
+
+
+  {{- with site.Params.author.image }}{{ with resources.Get . }}
+  <link rel="icon" type="image/png" href="{{ (.Fill "64x64 png").RelPermalink }}" />
+  <link rel="apple-touch-icon" href="{{ (.Fill "180x180 png").RelPermalink }}" />
+  {{- end }}{{ end }}
+  {{ with site.Home.OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}" />{{ end }}
+  {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
+  {{ $sass := resources.Get "css/main.scss" }}
+  {{ $style := $sass | css.Sass $options | resources.Fingerprint "sha512" }}
+  <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" />
+  {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
+</head>

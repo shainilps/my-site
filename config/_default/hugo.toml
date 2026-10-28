@@ -27,9 +27,6 @@ enableEmoji = true
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
-  author = "authors"
-  series = "series"
 
 [sitemap]
   changefreq = 'daily'
@@ -37,7 +34,7 @@ enableEmoji = true
   priority = 0.5
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [related]
   threshold = 0

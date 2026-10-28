@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+<header>
+    <h1>{{ $.Site.Title }}</h1>
+</header>
+{{ .Content }}
+
+<p><strong>recent posts</strong></p>
+{{ partial "post_list.html" (dict "context" . "section" "posts" "limit" 5 "show_more" true "show_more_text" "all posts..." "show_more_url" "posts") }}
+
+{{ end }}

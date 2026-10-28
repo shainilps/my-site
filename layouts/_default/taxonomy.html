@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+<ul class="post-list">
+    {{- range .Pages.ByTitle }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ len .Pages }})</li>
+    {{- end }}
+</ul>
+{{ end }}

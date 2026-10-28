@@ -1,2 +1,9 @@
 [[imports]]
-path = "github.com/shainilps/blowfish/v2"   
+path = "github.com/hanwenguo/hugo-theme-nostyleplease"
+  # only take the theme's templates and css, not its demo content/menu
+  [[imports.mounts]]
+  source = "layouts"
+  target = "layouts"
+  [[imports.mounts]]
+  source = "assets"
+  target = "assets"
