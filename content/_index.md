@@ -8,4 +8,4 @@ I mostly work on backend and system Softwares. I enjoy writing Go, Rust, Haskell
 TypeScript/JavaScript. If you want to connect, feel free to reach out(mail preferred due to
 inactivity on social media)!
 
-[email](mailto:shainilps.work@gmail.com) · [github](https://github.com/shainilps) · [x-twitter](https://twitter.com/shainilps) · [linkedin](https://linkedin.com/in/shainilps)
+[email](mailto:shainilps.work@gmail.com) · [github](https://github.com/shainilps) · [twitter](https://twitter.com/shainilps) · [linkedin](https://linkedin.com/in/shainilps)
