@@ -9,6 +9,10 @@ JavaScript. Mail is very much preferred if you ever want to get in touch.
 
 [email](mailto:shainilps.work@gmail.com) · [github](https://github.com/shainilps) · [twitter](https://twitter.com/shainilps) · [linkedin](https://linkedin.com/in/shainilps)
 
+**currently working on**
+
+- Building my own file system (Started on 11 Nov 2026, because something inspired me to build one)
+
 **rabbit holes I'm in**
 
 - Studying Operating System Architecture (Expanding my horizons)
