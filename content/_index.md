@@ -11,7 +11,6 @@ JavaScript. Mail is very much preferred if you ever want to get in touch.
 
 **rabbit holes I'm in**
 
-- Studying User Interface (UI) and GPU programming (I find it frustrating that software has gotten so bloated and slow)
 - Studying Operating System Architecture (Expanding my horizons)
 - Finding different ways to integrate Functional Programming concepts into my daily programming. (OCaml, SBCL)
 - Trying to build a habit of sketching. (It's hard to stay consistent)
