@@ -101,5 +101,7 @@ do the operation. usually FUSE wont really call, we implemnt the function for FU
 
 so a quick guide to how to make a FUSE file sytem is [Write a filesystem with FUSE](https://engineering.facile.it/blog/eng/write-filesystem-fuse/)
 
-Now you know how the file system works. Let's Design and See How the different component of
+Now you know how the file system actually works. Now Let's Design and See How the different component of
 File System fit together in Disks.
+
+continuing....
