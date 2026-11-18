@@ -5,7 +5,7 @@ title = 'File System'
 tags = ['linux', 'operating-system', 'file-system']
 +++
 
-If there is any typo or grammer mistake, please adjust.
+If there is any typo or grammer mistake, please don't mind.
 
 Recently I got intrested in the file systems. I always noticed that part of my OS but I never knew what exactly they did.
 Like there are lot of types of file systems for example a common one you can find in fedora systems (which i use) is btrfs(better file systems)
@@ -99,4 +99,7 @@ system its a interface which registers itself to the VFS. so any file operation 
 mounted file system delegated to the FUSE and then FUSE lets makes the call of calling your program to
 do the operation. usually FUSE wont really call, we implemnt the function for FUSE to call.
 
-will continue....
+so a quick guide to how to make a FUSE file sytem is [Write a filesystem with FUSE](https://engineering.facile.it/blog/eng/write-filesystem-fuse/)
+
+Now you know how the file system works. Let's Design and See How the different component of
+File System fit together in Disks.
