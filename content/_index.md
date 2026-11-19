@@ -18,5 +18,5 @@ Mail is very much preferred if you ever want to get in touch.
 
 - Studying Operating System Architecture (Expanding my horizons)
 - Data Storage Systems (Recently something sparked within me to learn about this more)
-- Finding different ways to integrate Functional Programming concepts into my daily programming. (OCaml, SBCL)
+- Finding different ways to integrate Functional Programming concepts into my daily programming. (OCaml, Common Lisp)
 - Trying to build a habit of sketching. (It's hard to stay consistent)
