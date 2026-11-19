@@ -5,7 +5,7 @@ title = 'Shainil P S'
 [posts](/posts/) · [tags](/tags/) · [links](/links/) · [rss](/index.xml)
 
 I mostly work on backend systems at work and hack on everything in my free time..
-I enjoy writing Go, Rust, JavaScript, Python, C and Some FP like Haskell, OCaml, SBCL.
+I enjoy writing Go, Rust, JavaScript, Python, C plus some Haskell, OCaml and Common Lisp(SBCL).
 Mail is very much preferred if you ever want to get in touch.
 
 [email](mailto:shainilps.work@gmail.com) · [github](https://github.com/shainilps) · [twitter](https://twitter.com/shainilps) · [linkedin](https://linkedin.com/in/shainilps)
