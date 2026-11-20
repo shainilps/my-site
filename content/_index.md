@@ -16,7 +16,7 @@ Mail is very much preferred if you ever want to get in touch.
 
 **rabbit holes I'm in**
 
-- Studying Operating System Architecture (Expanding my horizons)
-- Data Storage Systems (Recently something sparked within me to learn about this more)
+- Infrastructure Systems
+- Studying Operating System Architecture
 - Finding different ways to integrate Functional Programming concepts into my daily programming. (OCaml, Common Lisp)
 - Trying to build a habit of sketching. (It's hard to stay consistent)
