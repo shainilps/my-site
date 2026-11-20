@@ -6,7 +6,7 @@ tags = ['linux', 'operating-system', 'file-system']
 +++
 
 If there is any typo or grammer mistake, please don't mind.
-and this is the file system which I'm writing/wrote(depending on the time) [pelican](github.com/shainilps/pelican)
+and this is the file system which I'm writing/wrote(depending on the time) [pelican](https://github.com/shainilps/pelican)A
 
 
 Recently I got intrested in the file systems. I always noticed that part of my OS but I never knew what exactly they did.
