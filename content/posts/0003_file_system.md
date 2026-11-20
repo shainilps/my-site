@@ -6,6 +6,8 @@ tags = ['linux', 'operating-system', 'file-system']
 +++
 
 If there is any typo or grammer mistake, please don't mind.
+and this is the file system which I'm writing/wrote(depending on the time) [pelican](github.com/shainilps/pelican)
+
 
 Recently I got intrested in the file systems. I always noticed that part of my OS but I never knew what exactly they did.
 Like there are lot of types of file systems for example a common one you can find in fedora systems (which i use) is btrfs(better file systems)
