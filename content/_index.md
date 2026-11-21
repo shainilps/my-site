@@ -12,7 +12,8 @@ Mail is very much preferred if you ever want to get in touch.
 
 **currently working on**
 
-- Building my own file system called [Pelican](https://github.com/shainilps/pelican) (Started on 11 Nov 2026, because something inspired me to build one)
+- Building a sandbox in Rust to run untrusted code: Linux containers (namespaces, cgroups) first, then Firecracker microVMs and also looking into other approaches
+- Making [Pelican](https://github.com/shainilps/pelican) Distributed File System for no reason
 
 **rabbit holes I'm in**
 
