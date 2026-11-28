@@ -5,8 +5,8 @@ weight = 1
 title = "Shainil P S"
 
 [params]
-  description = "I'm Shainil P S, a Programmer. I hack on softwares, and spend way too much time geeking about softwares"
-  copyright = "@2026 Shainil P S"
+  description = "Hi, I'm Shainil, a programmer. I rebuild systems on my own to understand them better, and write whatever language suits the job. I love some functional programming too. Interested in operating systems, infrastructure systems and networking."
+  copyright = "©2026 Shainil P S"
 
 [params.author]
   image = "img/cat_sorcerer.jpeg" # favicon
